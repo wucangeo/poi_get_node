@@ -1,0 +1,2426 @@
+{
+    "RECORDS": [
+        {
+            "sheng": "11",
+            "shi": "1",
+            "sheng4": "1101",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "12",
+            "shi": "1",
+            "sheng4": "1201",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "13",
+            "shi": "1",
+            "sheng4": "1301",
+            "name": "石家庄市",
+            "name_abbr": "石家庄"
+        },
+        {
+            "sheng": "13",
+            "shi": "2",
+            "sheng4": "1302",
+            "name": "唐山市",
+            "name_abbr": "唐山"
+        },
+        {
+            "sheng": "13",
+            "shi": "3",
+            "sheng4": "1303",
+            "name": "秦皇岛市",
+            "name_abbr": "秦皇岛"
+        },
+        {
+            "sheng": "13",
+            "shi": "4",
+            "sheng4": "1304",
+            "name": "邯郸市",
+            "name_abbr": "邯郸"
+        },
+        {
+            "sheng": "13",
+            "shi": "5",
+            "sheng4": "1305",
+            "name": "邢台市",
+            "name_abbr": "邢台"
+        },
+        {
+            "sheng": "13",
+            "shi": "6",
+            "sheng4": "1306",
+            "name": "保定市",
+            "name_abbr": "保定"
+        },
+        {
+            "sheng": "13",
+            "shi": "7",
+            "sheng4": "1307",
+            "name": "张家口市",
+            "name_abbr": "张家口"
+        },
+        {
+            "sheng": "13",
+            "shi": "8",
+            "sheng4": "1308",
+            "name": "承德市",
+            "name_abbr": "承德"
+        },
+        {
+            "sheng": "13",
+            "shi": "9",
+            "sheng4": "1309",
+            "name": "沧州市",
+            "name_abbr": "沧州"
+        },
+        {
+            "sheng": "13",
+            "shi": "10",
+            "sheng4": "1310",
+            "name": "廊坊市",
+            "name_abbr": "廊坊"
+        },
+        {
+            "sheng": "13",
+            "shi": "11",
+            "sheng4": "1311",
+            "name": "衡水市",
+            "name_abbr": "衡水"
+        },
+        {
+            "sheng": "14",
+            "shi": "1",
+            "sheng4": "1401",
+            "name": "太原市",
+            "name_abbr": "太原"
+        },
+        {
+            "sheng": "14",
+            "shi": "2",
+            "sheng4": "1402",
+            "name": "大同市",
+            "name_abbr": "大同"
+        },
+        {
+            "sheng": "14",
+            "shi": "3",
+            "sheng4": "1403",
+            "name": "阳泉市",
+            "name_abbr": "阳泉"
+        },
+        {
+            "sheng": "14",
+            "shi": "4",
+            "sheng4": "1404",
+            "name": "长治市",
+            "name_abbr": "长治"
+        },
+        {
+            "sheng": "14",
+            "shi": "5",
+            "sheng4": "1405",
+            "name": "晋城市",
+            "name_abbr": "晋城"
+        },
+        {
+            "sheng": "14",
+            "shi": "6",
+            "sheng4": "1406",
+            "name": "朔州市",
+            "name_abbr": "朔州"
+        },
+        {
+            "sheng": "14",
+            "shi": "7",
+            "sheng4": "1407",
+            "name": "晋中市",
+            "name_abbr": "晋中"
+        },
+        {
+            "sheng": "14",
+            "shi": "8",
+            "sheng4": "1408",
+            "name": "运城市",
+            "name_abbr": "运城"
+        },
+        {
+            "sheng": "14",
+            "shi": "9",
+            "sheng4": "1409",
+            "name": "忻州市",
+            "name_abbr": "忻州"
+        },
+        {
+            "sheng": "14",
+            "shi": "10",
+            "sheng4": "1410",
+            "name": "临汾市",
+            "name_abbr": "临汾"
+        },
+        {
+            "sheng": "14",
+            "shi": "11",
+            "sheng4": "1411",
+            "name": "吕梁市",
+            "name_abbr": "吕梁"
+        },
+        {
+            "sheng": "15",
+            "shi": "1",
+            "sheng4": "1501",
+            "name": "呼和浩特市",
+            "name_abbr": "呼和浩特"
+        },
+        {
+            "sheng": "15",
+            "shi": "2",
+            "sheng4": "1502",
+            "name": "包头市",
+            "name_abbr": "包头"
+        },
+        {
+            "sheng": "15",
+            "shi": "3",
+            "sheng4": "1503",
+            "name": "乌海市",
+            "name_abbr": "乌海"
+        },
+        {
+            "sheng": "15",
+            "shi": "4",
+            "sheng4": "1504",
+            "name": "赤峰市",
+            "name_abbr": "赤峰"
+        },
+        {
+            "sheng": "15",
+            "shi": "5",
+            "sheng4": "1505",
+            "name": "通辽市",
+            "name_abbr": "通辽"
+        },
+        {
+            "sheng": "15",
+            "shi": "6",
+            "sheng4": "1506",
+            "name": "鄂尔多斯市",
+            "name_abbr": "鄂尔多斯"
+        },
+        {
+            "sheng": "15",
+            "shi": "7",
+            "sheng4": "1507",
+            "name": "呼伦贝尔市",
+            "name_abbr": "呼伦贝尔"
+        },
+        {
+            "sheng": "15",
+            "shi": "8",
+            "sheng4": "1508",
+            "name": "巴彦淖尔市",
+            "name_abbr": "巴彦淖尔"
+        },
+        {
+            "sheng": "15",
+            "shi": "9",
+            "sheng4": "1509",
+            "name": "乌兰察布市",
+            "name_abbr": "乌兰察布"
+        },
+        {
+            "sheng": "15",
+            "shi": "22",
+            "sheng4": "1522",
+            "name": "兴安盟",
+            "name_abbr": "兴安"
+        },
+        {
+            "sheng": "15",
+            "shi": "25",
+            "sheng4": "1525",
+            "name": "锡林郭勒盟",
+            "name_abbr": "锡林郭勒"
+        },
+        {
+            "sheng": "15",
+            "shi": "29",
+            "sheng4": "1529",
+            "name": "阿拉善盟",
+            "name_abbr": "阿拉善"
+        },
+        {
+            "sheng": "21",
+            "shi": "1",
+            "sheng4": "2101",
+            "name": "沈阳市",
+            "name_abbr": "沈阳"
+        },
+        {
+            "sheng": "21",
+            "shi": "2",
+            "sheng4": "2102",
+            "name": "大连市",
+            "name_abbr": "大连"
+        },
+        {
+            "sheng": "21",
+            "shi": "3",
+            "sheng4": "2103",
+            "name": "鞍山市",
+            "name_abbr": "鞍山"
+        },
+        {
+            "sheng": "21",
+            "shi": "4",
+            "sheng4": "2104",
+            "name": "抚顺市",
+            "name_abbr": "抚顺"
+        },
+        {
+            "sheng": "21",
+            "shi": "5",
+            "sheng4": "2105",
+            "name": "本溪市",
+            "name_abbr": "本溪"
+        },
+        {
+            "sheng": "21",
+            "shi": "6",
+            "sheng4": "2106",
+            "name": "丹东市",
+            "name_abbr": "丹东"
+        },
+        {
+            "sheng": "21",
+            "shi": "7",
+            "sheng4": "2107",
+            "name": "锦州市",
+            "name_abbr": "锦州"
+        },
+        {
+            "sheng": "21",
+            "shi": "8",
+            "sheng4": "2108",
+            "name": "营口市",
+            "name_abbr": "营口"
+        },
+        {
+            "sheng": "21",
+            "shi": "9",
+            "sheng4": "2109",
+            "name": "阜新市",
+            "name_abbr": "阜新"
+        },
+        {
+            "sheng": "21",
+            "shi": "10",
+            "sheng4": "2110",
+            "name": "辽阳市",
+            "name_abbr": "辽阳"
+        },
+        {
+            "sheng": "21",
+            "shi": "11",
+            "sheng4": "2111",
+            "name": "盘锦市",
+            "name_abbr": "盘锦"
+        },
+        {
+            "sheng": "21",
+            "shi": "12",
+            "sheng4": "2112",
+            "name": "铁岭市",
+            "name_abbr": "铁岭"
+        },
+        {
+            "sheng": "21",
+            "shi": "13",
+            "sheng4": "2113",
+            "name": "朝阳市",
+            "name_abbr": "朝阳"
+        },
+        {
+            "sheng": "21",
+            "shi": "14",
+            "sheng4": "2114",
+            "name": "葫芦岛市",
+            "name_abbr": "葫芦岛"
+        },
+        {
+            "sheng": "22",
+            "shi": "1",
+            "sheng4": "2201",
+            "name": "长春市",
+            "name_abbr": "长春"
+        },
+        {
+            "sheng": "22",
+            "shi": "2",
+            "sheng4": "2202",
+            "name": "吉林市",
+            "name_abbr": "吉林"
+        },
+        {
+            "sheng": "22",
+            "shi": "3",
+            "sheng4": "2203",
+            "name": "四平市",
+            "name_abbr": "四平"
+        },
+        {
+            "sheng": "22",
+            "shi": "4",
+            "sheng4": "2204",
+            "name": "辽源市",
+            "name_abbr": "辽源"
+        },
+        {
+            "sheng": "22",
+            "shi": "5",
+            "sheng4": "2205",
+            "name": "通化市",
+            "name_abbr": "通化"
+        },
+        {
+            "sheng": "22",
+            "shi": "6",
+            "sheng4": "2206",
+            "name": "白山市",
+            "name_abbr": "白山"
+        },
+        {
+            "sheng": "22",
+            "shi": "7",
+            "sheng4": "2207",
+            "name": "松原市",
+            "name_abbr": "松原"
+        },
+        {
+            "sheng": "22",
+            "shi": "8",
+            "sheng4": "2208",
+            "name": "白城市",
+            "name_abbr": "白城"
+        },
+        {
+            "sheng": "22",
+            "shi": "24",
+            "sheng4": "2224",
+            "name": "延边朝鲜族自治州",
+            "name_abbr": "延边朝鲜族自治"
+        },
+        {
+            "sheng": "23",
+            "shi": "1",
+            "sheng4": "2301",
+            "name": "哈尔滨市",
+            "name_abbr": "哈尔滨"
+        },
+        {
+            "sheng": "23",
+            "shi": "2",
+            "sheng4": "2302",
+            "name": "齐齐哈尔市",
+            "name_abbr": "齐齐哈尔"
+        },
+        {
+            "sheng": "23",
+            "shi": "3",
+            "sheng4": "2303",
+            "name": "鸡西市",
+            "name_abbr": "鸡西"
+        },
+        {
+            "sheng": "23",
+            "shi": "4",
+            "sheng4": "2304",
+            "name": "鹤岗市",
+            "name_abbr": "鹤岗"
+        },
+        {
+            "sheng": "23",
+            "shi": "5",
+            "sheng4": "2305",
+            "name": "双鸭山市",
+            "name_abbr": "双鸭山"
+        },
+        {
+            "sheng": "23",
+            "shi": "6",
+            "sheng4": "2306",
+            "name": "大庆市",
+            "name_abbr": "大庆"
+        },
+        {
+            "sheng": "23",
+            "shi": "7",
+            "sheng4": "2307",
+            "name": "伊春市",
+            "name_abbr": "伊春"
+        },
+        {
+            "sheng": "23",
+            "shi": "8",
+            "sheng4": "2308",
+            "name": "佳木斯市",
+            "name_abbr": "佳木斯"
+        },
+        {
+            "sheng": "23",
+            "shi": "9",
+            "sheng4": "2309",
+            "name": "七台河市",
+            "name_abbr": "七台河"
+        },
+        {
+            "sheng": "23",
+            "shi": "10",
+            "sheng4": "2310",
+            "name": "牡丹江市",
+            "name_abbr": "牡丹江"
+        },
+        {
+            "sheng": "23",
+            "shi": "11",
+            "sheng4": "2311",
+            "name": "黑河市",
+            "name_abbr": "黑河"
+        },
+        {
+            "sheng": "23",
+            "shi": "12",
+            "sheng4": "2312",
+            "name": "绥化市",
+            "name_abbr": "绥化"
+        },
+        {
+            "sheng": "23",
+            "shi": "27",
+            "sheng4": "2327",
+            "name": "大兴安岭地区",
+            "name_abbr": "大兴安岭地"
+        },
+        {
+            "sheng": "31",
+            "shi": "1",
+            "sheng4": "3101",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "32",
+            "shi": "1",
+            "sheng4": "3201",
+            "name": "南京市",
+            "name_abbr": "南京"
+        },
+        {
+            "sheng": "32",
+            "shi": "2",
+            "sheng4": "3202",
+            "name": "无锡市",
+            "name_abbr": "无锡"
+        },
+        {
+            "sheng": "32",
+            "shi": "3",
+            "sheng4": "3203",
+            "name": "徐州市",
+            "name_abbr": "徐州"
+        },
+        {
+            "sheng": "32",
+            "shi": "4",
+            "sheng4": "3204",
+            "name": "常州市",
+            "name_abbr": "常州"
+        },
+        {
+            "sheng": "32",
+            "shi": "5",
+            "sheng4": "3205",
+            "name": "苏州市",
+            "name_abbr": "苏州"
+        },
+        {
+            "sheng": "32",
+            "shi": "6",
+            "sheng4": "3206",
+            "name": "南通市",
+            "name_abbr": "南通"
+        },
+        {
+            "sheng": "32",
+            "shi": "7",
+            "sheng4": "3207",
+            "name": "连云港市",
+            "name_abbr": "连云港"
+        },
+        {
+            "sheng": "32",
+            "shi": "8",
+            "sheng4": "3208",
+            "name": "淮安市",
+            "name_abbr": "淮安"
+        },
+        {
+            "sheng": "32",
+            "shi": "9",
+            "sheng4": "3209",
+            "name": "盐城市",
+            "name_abbr": "盐城"
+        },
+        {
+            "sheng": "32",
+            "shi": "10",
+            "sheng4": "3210",
+            "name": "扬州市",
+            "name_abbr": "扬州"
+        },
+        {
+            "sheng": "32",
+            "shi": "11",
+            "sheng4": "3211",
+            "name": "镇江市",
+            "name_abbr": "镇江"
+        },
+        {
+            "sheng": "32",
+            "shi": "12",
+            "sheng4": "3212",
+            "name": "泰州市",
+            "name_abbr": "泰州"
+        },
+        {
+            "sheng": "32",
+            "shi": "13",
+            "sheng4": "3213",
+            "name": "宿迁市",
+            "name_abbr": "宿迁"
+        },
+        {
+            "sheng": "33",
+            "shi": "1",
+            "sheng4": "3301",
+            "name": "杭州市",
+            "name_abbr": "杭州"
+        },
+        {
+            "sheng": "33",
+            "shi": "2",
+            "sheng4": "3302",
+            "name": "宁波市",
+            "name_abbr": "宁波"
+        },
+        {
+            "sheng": "33",
+            "shi": "3",
+            "sheng4": "3303",
+            "name": "温州市",
+            "name_abbr": "温州"
+        },
+        {
+            "sheng": "33",
+            "shi": "4",
+            "sheng4": "3304",
+            "name": "嘉兴市",
+            "name_abbr": "嘉兴"
+        },
+        {
+            "sheng": "33",
+            "shi": "5",
+            "sheng4": "3305",
+            "name": "湖州市",
+            "name_abbr": "湖州"
+        },
+        {
+            "sheng": "33",
+            "shi": "6",
+            "sheng4": "3306",
+            "name": "绍兴市",
+            "name_abbr": "绍兴"
+        },
+        {
+            "sheng": "33",
+            "shi": "7",
+            "sheng4": "3307",
+            "name": "金华市",
+            "name_abbr": "金华"
+        },
+        {
+            "sheng": "33",
+            "shi": "8",
+            "sheng4": "3308",
+            "name": "衢州市",
+            "name_abbr": "衢州"
+        },
+        {
+            "sheng": "33",
+            "shi": "9",
+            "sheng4": "3309",
+            "name": "舟山市",
+            "name_abbr": "舟山"
+        },
+        {
+            "sheng": "33",
+            "shi": "10",
+            "sheng4": "3310",
+            "name": "台州市",
+            "name_abbr": "台州"
+        },
+        {
+            "sheng": "33",
+            "shi": "11",
+            "sheng4": "3311",
+            "name": "丽水市",
+            "name_abbr": "丽水"
+        },
+        {
+            "sheng": "34",
+            "shi": "1",
+            "sheng4": "3401",
+            "name": "合肥市",
+            "name_abbr": "合肥"
+        },
+        {
+            "sheng": "34",
+            "shi": "2",
+            "sheng4": "3402",
+            "name": "芜湖市",
+            "name_abbr": "芜湖"
+        },
+        {
+            "sheng": "34",
+            "shi": "3",
+            "sheng4": "3403",
+            "name": "蚌埠市",
+            "name_abbr": "蚌埠"
+        },
+        {
+            "sheng": "34",
+            "shi": "4",
+            "sheng4": "3404",
+            "name": "淮南市",
+            "name_abbr": "淮南"
+        },
+        {
+            "sheng": "34",
+            "shi": "5",
+            "sheng4": "3405",
+            "name": "马鞍山市",
+            "name_abbr": "马鞍山"
+        },
+        {
+            "sheng": "34",
+            "shi": "6",
+            "sheng4": "3406",
+            "name": "淮北市",
+            "name_abbr": "淮北"
+        },
+        {
+            "sheng": "34",
+            "shi": "7",
+            "sheng4": "3407",
+            "name": "铜陵市",
+            "name_abbr": "铜陵"
+        },
+        {
+            "sheng": "34",
+            "shi": "8",
+            "sheng4": "3408",
+            "name": "安庆市",
+            "name_abbr": "安庆"
+        },
+        {
+            "sheng": "34",
+            "shi": "10",
+            "sheng4": "3410",
+            "name": "黄山市",
+            "name_abbr": "黄山"
+        },
+        {
+            "sheng": "34",
+            "shi": "11",
+            "sheng4": "3411",
+            "name": "滁州市",
+            "name_abbr": "滁州"
+        },
+        {
+            "sheng": "34",
+            "shi": "12",
+            "sheng4": "3412",
+            "name": "阜阳市",
+            "name_abbr": "阜阳"
+        },
+        {
+            "sheng": "34",
+            "shi": "13",
+            "sheng4": "3413",
+            "name": "宿州市",
+            "name_abbr": "宿州"
+        },
+        {
+            "sheng": "34",
+            "shi": "15",
+            "sheng4": "3415",
+            "name": "六安市",
+            "name_abbr": "六安"
+        },
+        {
+            "sheng": "34",
+            "shi": "16",
+            "sheng4": "3416",
+            "name": "亳州市",
+            "name_abbr": "亳州"
+        },
+        {
+            "sheng": "34",
+            "shi": "17",
+            "sheng4": "3417",
+            "name": "池州市",
+            "name_abbr": "池州"
+        },
+        {
+            "sheng": "34",
+            "shi": "18",
+            "sheng4": "3418",
+            "name": "宣城市",
+            "name_abbr": "宣城"
+        },
+        {
+            "sheng": "35",
+            "shi": "1",
+            "sheng4": "3501",
+            "name": "福州市",
+            "name_abbr": "福州"
+        },
+        {
+            "sheng": "35",
+            "shi": "2",
+            "sheng4": "3502",
+            "name": "厦门市",
+            "name_abbr": "厦门"
+        },
+        {
+            "sheng": "35",
+            "shi": "3",
+            "sheng4": "3503",
+            "name": "莆田市",
+            "name_abbr": "莆田"
+        },
+        {
+            "sheng": "35",
+            "shi": "4",
+            "sheng4": "3504",
+            "name": "三明市",
+            "name_abbr": "三明"
+        },
+        {
+            "sheng": "35",
+            "shi": "5",
+            "sheng4": "3505",
+            "name": "泉州市",
+            "name_abbr": "泉州"
+        },
+        {
+            "sheng": "35",
+            "shi": "6",
+            "sheng4": "3506",
+            "name": "漳州市",
+            "name_abbr": "漳州"
+        },
+        {
+            "sheng": "35",
+            "shi": "7",
+            "sheng4": "3507",
+            "name": "南平市",
+            "name_abbr": "南平"
+        },
+        {
+            "sheng": "35",
+            "shi": "8",
+            "sheng4": "3508",
+            "name": "龙岩市",
+            "name_abbr": "龙岩"
+        },
+        {
+            "sheng": "35",
+            "shi": "9",
+            "sheng4": "3509",
+            "name": "宁德市",
+            "name_abbr": "宁德"
+        },
+        {
+            "sheng": "36",
+            "shi": "1",
+            "sheng4": "3601",
+            "name": "南昌市",
+            "name_abbr": "南昌"
+        },
+        {
+            "sheng": "36",
+            "shi": "2",
+            "sheng4": "3602",
+            "name": "景德镇市",
+            "name_abbr": "景德镇"
+        },
+        {
+            "sheng": "36",
+            "shi": "3",
+            "sheng4": "3603",
+            "name": "萍乡市",
+            "name_abbr": "萍乡"
+        },
+        {
+            "sheng": "36",
+            "shi": "4",
+            "sheng4": "3604",
+            "name": "九江市",
+            "name_abbr": "九江"
+        },
+        {
+            "sheng": "36",
+            "shi": "5",
+            "sheng4": "3605",
+            "name": "新余市",
+            "name_abbr": "新余"
+        },
+        {
+            "sheng": "36",
+            "shi": "6",
+            "sheng4": "3606",
+            "name": "鹰潭市",
+            "name_abbr": "鹰潭"
+        },
+        {
+            "sheng": "36",
+            "shi": "7",
+            "sheng4": "3607",
+            "name": "赣州市",
+            "name_abbr": "赣州"
+        },
+        {
+            "sheng": "36",
+            "shi": "8",
+            "sheng4": "3608",
+            "name": "吉安市",
+            "name_abbr": "吉安"
+        },
+        {
+            "sheng": "36",
+            "shi": "9",
+            "sheng4": "3609",
+            "name": "宜春市",
+            "name_abbr": "宜春"
+        },
+        {
+            "sheng": "36",
+            "shi": "10",
+            "sheng4": "3610",
+            "name": "抚州市",
+            "name_abbr": "抚州"
+        },
+        {
+            "sheng": "36",
+            "shi": "11",
+            "sheng4": "3611",
+            "name": "上饶市",
+            "name_abbr": "上饶"
+        },
+        {
+            "sheng": "37",
+            "shi": "1",
+            "sheng4": "3701",
+            "name": "济南市",
+            "name_abbr": "济南"
+        },
+        {
+            "sheng": "37",
+            "shi": "2",
+            "sheng4": "3702",
+            "name": "青岛市",
+            "name_abbr": "青岛"
+        },
+        {
+            "sheng": "37",
+            "shi": "3",
+            "sheng4": "3703",
+            "name": "淄博市",
+            "name_abbr": "淄博"
+        },
+        {
+            "sheng": "37",
+            "shi": "4",
+            "sheng4": "3704",
+            "name": "枣庄市",
+            "name_abbr": "枣庄"
+        },
+        {
+            "sheng": "37",
+            "shi": "5",
+            "sheng4": "3705",
+            "name": "东营市",
+            "name_abbr": "东营"
+        },
+        {
+            "sheng": "37",
+            "shi": "6",
+            "sheng4": "3706",
+            "name": "烟台市",
+            "name_abbr": "烟台"
+        },
+        {
+            "sheng": "37",
+            "shi": "7",
+            "sheng4": "3707",
+            "name": "潍坊市",
+            "name_abbr": "潍坊"
+        },
+        {
+            "sheng": "37",
+            "shi": "8",
+            "sheng4": "3708",
+            "name": "济宁市",
+            "name_abbr": "济宁"
+        },
+        {
+            "sheng": "37",
+            "shi": "9",
+            "sheng4": "3709",
+            "name": "泰安市",
+            "name_abbr": "泰安"
+        },
+        {
+            "sheng": "37",
+            "shi": "10",
+            "sheng4": "3710",
+            "name": "威海市",
+            "name_abbr": "威海"
+        },
+        {
+            "sheng": "37",
+            "shi": "11",
+            "sheng4": "3711",
+            "name": "日照市",
+            "name_abbr": "日照"
+        },
+        {
+            "sheng": "37",
+            "shi": "12",
+            "sheng4": "3712",
+            "name": "莱芜市",
+            "name_abbr": "莱芜"
+        },
+        {
+            "sheng": "37",
+            "shi": "13",
+            "sheng4": "3713",
+            "name": "临沂市",
+            "name_abbr": "临沂"
+        },
+        {
+            "sheng": "37",
+            "shi": "14",
+            "sheng4": "3714",
+            "name": "德州市",
+            "name_abbr": "德州"
+        },
+        {
+            "sheng": "37",
+            "shi": "15",
+            "sheng4": "3715",
+            "name": "聊城市",
+            "name_abbr": "聊城"
+        },
+        {
+            "sheng": "37",
+            "shi": "16",
+            "sheng4": "3716",
+            "name": "滨州市",
+            "name_abbr": "滨州"
+        },
+        {
+            "sheng": "37",
+            "shi": "17",
+            "sheng4": "3717",
+            "name": "菏泽市",
+            "name_abbr": "菏泽"
+        },
+        {
+            "sheng": "41",
+            "shi": "1",
+            "sheng4": "4101",
+            "name": "郑州市",
+            "name_abbr": "郑州"
+        },
+        {
+            "sheng": "41",
+            "shi": "2",
+            "sheng4": "4102",
+            "name": "开封市",
+            "name_abbr": "开封"
+        },
+        {
+            "sheng": "41",
+            "shi": "3",
+            "sheng4": "4103",
+            "name": "洛阳市",
+            "name_abbr": "洛阳"
+        },
+        {
+            "sheng": "41",
+            "shi": "4",
+            "sheng4": "4104",
+            "name": "平顶山市",
+            "name_abbr": "平顶山"
+        },
+        {
+            "sheng": "41",
+            "shi": "5",
+            "sheng4": "4105",
+            "name": "安阳市",
+            "name_abbr": "安阳"
+        },
+        {
+            "sheng": "41",
+            "shi": "6",
+            "sheng4": "4106",
+            "name": "鹤壁市",
+            "name_abbr": "鹤壁"
+        },
+        {
+            "sheng": "41",
+            "shi": "7",
+            "sheng4": "4107",
+            "name": "新乡市",
+            "name_abbr": "新乡"
+        },
+        {
+            "sheng": "41",
+            "shi": "8",
+            "sheng4": "4108",
+            "name": "焦作市",
+            "name_abbr": "焦作"
+        },
+        {
+            "sheng": "41",
+            "shi": "9",
+            "sheng4": "4109",
+            "name": "濮阳市",
+            "name_abbr": "濮阳"
+        },
+        {
+            "sheng": "41",
+            "shi": "10",
+            "sheng4": "4110",
+            "name": "许昌市",
+            "name_abbr": "许昌"
+        },
+        {
+            "sheng": "41",
+            "shi": "11",
+            "sheng4": "4111",
+            "name": "漯河市",
+            "name_abbr": "漯河"
+        },
+        {
+            "sheng": "41",
+            "shi": "12",
+            "sheng4": "4112",
+            "name": "三门峡市",
+            "name_abbr": "三门峡"
+        },
+        {
+            "sheng": "41",
+            "shi": "13",
+            "sheng4": "4113",
+            "name": "南阳市",
+            "name_abbr": "南阳"
+        },
+        {
+            "sheng": "41",
+            "shi": "14",
+            "sheng4": "4114",
+            "name": "商丘市",
+            "name_abbr": "商丘"
+        },
+        {
+            "sheng": "41",
+            "shi": "15",
+            "sheng4": "4115",
+            "name": "信阳市",
+            "name_abbr": "信阳"
+        },
+        {
+            "sheng": "41",
+            "shi": "16",
+            "sheng4": "4116",
+            "name": "周口市",
+            "name_abbr": "周口"
+        },
+        {
+            "sheng": "41",
+            "shi": "17",
+            "sheng4": "4117",
+            "name": "驻马店市",
+            "name_abbr": "驻马店"
+        },
+        {
+            "sheng": "41",
+            "shi": "90",
+            "sheng4": "4190",
+            "name": "省直辖县级行政区划",
+            "name_abbr": "省直辖县级行政区"
+        },
+        {
+            "sheng": "42",
+            "shi": "1",
+            "sheng4": "4201",
+            "name": "武汉市",
+            "name_abbr": "武汉"
+        },
+        {
+            "sheng": "42",
+            "shi": "2",
+            "sheng4": "4202",
+            "name": "黄石市",
+            "name_abbr": "黄石"
+        },
+        {
+            "sheng": "42",
+            "shi": "3",
+            "sheng4": "4203",
+            "name": "十堰市",
+            "name_abbr": "十堰"
+        },
+        {
+            "sheng": "42",
+            "shi": "5",
+            "sheng4": "4205",
+            "name": "宜昌市",
+            "name_abbr": "宜昌"
+        },
+        {
+            "sheng": "42",
+            "shi": "6",
+            "sheng4": "4206",
+            "name": "襄阳市",
+            "name_abbr": "襄阳"
+        },
+        {
+            "sheng": "42",
+            "shi": "7",
+            "sheng4": "4207",
+            "name": "鄂州市",
+            "name_abbr": "鄂州"
+        },
+        {
+            "sheng": "42",
+            "shi": "8",
+            "sheng4": "4208",
+            "name": "荆门市",
+            "name_abbr": "荆门"
+        },
+        {
+            "sheng": "42",
+            "shi": "9",
+            "sheng4": "4209",
+            "name": "孝感市",
+            "name_abbr": "孝感"
+        },
+        {
+            "sheng": "42",
+            "shi": "10",
+            "sheng4": "4210",
+            "name": "荆州市",
+            "name_abbr": "荆州"
+        },
+        {
+            "sheng": "42",
+            "shi": "11",
+            "sheng4": "4211",
+            "name": "黄冈市",
+            "name_abbr": "黄冈"
+        },
+        {
+            "sheng": "42",
+            "shi": "12",
+            "sheng4": "4212",
+            "name": "咸宁市",
+            "name_abbr": "咸宁"
+        },
+        {
+            "sheng": "42",
+            "shi": "13",
+            "sheng4": "4213",
+            "name": "随州市",
+            "name_abbr": "随州"
+        },
+        {
+            "sheng": "42",
+            "shi": "28",
+            "sheng4": "4228",
+            "name": "恩施土家族苗族自治州",
+            "name_abbr": "恩施土家族苗族自治"
+        },
+        {
+            "sheng": "42",
+            "shi": "90",
+            "sheng4": "4290",
+            "name": "省直辖县级行政区划",
+            "name_abbr": "省直辖县级行政区"
+        },
+        {
+            "sheng": "43",
+            "shi": "1",
+            "sheng4": "4301",
+            "name": "长沙市",
+            "name_abbr": "长沙"
+        },
+        {
+            "sheng": "43",
+            "shi": "2",
+            "sheng4": "4302",
+            "name": "株洲市",
+            "name_abbr": "株洲"
+        },
+        {
+            "sheng": "43",
+            "shi": "3",
+            "sheng4": "4303",
+            "name": "湘潭市",
+            "name_abbr": "湘潭"
+        },
+        {
+            "sheng": "43",
+            "shi": "4",
+            "sheng4": "4304",
+            "name": "衡阳市",
+            "name_abbr": "衡阳"
+        },
+        {
+            "sheng": "43",
+            "shi": "5",
+            "sheng4": "4305",
+            "name": "邵阳市",
+            "name_abbr": "邵阳"
+        },
+        {
+            "sheng": "43",
+            "shi": "6",
+            "sheng4": "4306",
+            "name": "岳阳市",
+            "name_abbr": "岳阳"
+        },
+        {
+            "sheng": "43",
+            "shi": "7",
+            "sheng4": "4307",
+            "name": "常德市",
+            "name_abbr": "常德"
+        },
+        {
+            "sheng": "43",
+            "shi": "8",
+            "sheng4": "4308",
+            "name": "张家界市",
+            "name_abbr": "张家界"
+        },
+        {
+            "sheng": "43",
+            "shi": "9",
+            "sheng4": "4309",
+            "name": "益阳市",
+            "name_abbr": "益阳"
+        },
+        {
+            "sheng": "43",
+            "shi": "10",
+            "sheng4": "4310",
+            "name": "郴州市",
+            "name_abbr": "郴州"
+        },
+        {
+            "sheng": "43",
+            "shi": "11",
+            "sheng4": "4311",
+            "name": "永州市",
+            "name_abbr": "永州"
+        },
+        {
+            "sheng": "43",
+            "shi": "12",
+            "sheng4": "4312",
+            "name": "怀化市",
+            "name_abbr": "怀化"
+        },
+        {
+            "sheng": "43",
+            "shi": "13",
+            "sheng4": "4313",
+            "name": "娄底市",
+            "name_abbr": "娄底"
+        },
+        {
+            "sheng": "43",
+            "shi": "31",
+            "sheng4": "4331",
+            "name": "湘西土家族苗族自治州",
+            "name_abbr": "湘西土家族苗族自治"
+        },
+        {
+            "sheng": "44",
+            "shi": "1",
+            "sheng4": "4401",
+            "name": "广州市",
+            "name_abbr": "广州"
+        },
+        {
+            "sheng": "44",
+            "shi": "2",
+            "sheng4": "4402",
+            "name": "韶关市",
+            "name_abbr": "韶关"
+        },
+        {
+            "sheng": "44",
+            "shi": "3",
+            "sheng4": "4403",
+            "name": "深圳市",
+            "name_abbr": "深圳"
+        },
+        {
+            "sheng": "44",
+            "shi": "4",
+            "sheng4": "4404",
+            "name": "珠海市",
+            "name_abbr": "珠海"
+        },
+        {
+            "sheng": "44",
+            "shi": "5",
+            "sheng4": "4405",
+            "name": "汕头市",
+            "name_abbr": "汕头"
+        },
+        {
+            "sheng": "44",
+            "shi": "6",
+            "sheng4": "4406",
+            "name": "佛山市",
+            "name_abbr": "佛山"
+        },
+        {
+            "sheng": "44",
+            "shi": "7",
+            "sheng4": "4407",
+            "name": "江门市",
+            "name_abbr": "江门"
+        },
+        {
+            "sheng": "44",
+            "shi": "8",
+            "sheng4": "4408",
+            "name": "湛江市",
+            "name_abbr": "湛江"
+        },
+        {
+            "sheng": "44",
+            "shi": "9",
+            "sheng4": "4409",
+            "name": "茂名市",
+            "name_abbr": "茂名"
+        },
+        {
+            "sheng": "44",
+            "shi": "12",
+            "sheng4": "4412",
+            "name": "肇庆市",
+            "name_abbr": "肇庆"
+        },
+        {
+            "sheng": "44",
+            "shi": "13",
+            "sheng4": "4413",
+            "name": "惠州市",
+            "name_abbr": "惠州"
+        },
+        {
+            "sheng": "44",
+            "shi": "14",
+            "sheng4": "4414",
+            "name": "梅州市",
+            "name_abbr": "梅州"
+        },
+        {
+            "sheng": "44",
+            "shi": "15",
+            "sheng4": "4415",
+            "name": "汕尾市",
+            "name_abbr": "汕尾"
+        },
+        {
+            "sheng": "44",
+            "shi": "16",
+            "sheng4": "4416",
+            "name": "河源市",
+            "name_abbr": "河源"
+        },
+        {
+            "sheng": "44",
+            "shi": "17",
+            "sheng4": "4417",
+            "name": "阳江市",
+            "name_abbr": "阳江"
+        },
+        {
+            "sheng": "44",
+            "shi": "18",
+            "sheng4": "4418",
+            "name": "清远市",
+            "name_abbr": "清远"
+        },
+        {
+            "sheng": "44",
+            "shi": "19",
+            "sheng4": "4419",
+            "name": "东莞市",
+            "name_abbr": "东莞"
+        },
+        {
+            "sheng": "44",
+            "shi": "19",
+            "sheng4": "4419",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "44",
+            "shi": "20",
+            "sheng4": "4420",
+            "name": "中山市",
+            "name_abbr": "中山"
+        },
+        {
+            "sheng": "44",
+            "shi": "20",
+            "sheng4": "4420",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "44",
+            "shi": "51",
+            "sheng4": "4451",
+            "name": "潮州市",
+            "name_abbr": "潮州"
+        },
+        {
+            "sheng": "44",
+            "shi": "52",
+            "sheng4": "4452",
+            "name": "揭阳市",
+            "name_abbr": "揭阳"
+        },
+        {
+            "sheng": "44",
+            "shi": "53",
+            "sheng4": "4453",
+            "name": "云浮市",
+            "name_abbr": "云浮"
+        },
+        {
+            "sheng": "45",
+            "shi": "1",
+            "sheng4": "4501",
+            "name": "南宁市",
+            "name_abbr": "南宁"
+        },
+        {
+            "sheng": "45",
+            "shi": "2",
+            "sheng4": "4502",
+            "name": "柳州市",
+            "name_abbr": "柳州"
+        },
+        {
+            "sheng": "45",
+            "shi": "3",
+            "sheng4": "4503",
+            "name": "桂林市",
+            "name_abbr": "桂林"
+        },
+        {
+            "sheng": "45",
+            "shi": "4",
+            "sheng4": "4504",
+            "name": "梧州市",
+            "name_abbr": "梧州"
+        },
+        {
+            "sheng": "45",
+            "shi": "5",
+            "sheng4": "4505",
+            "name": "北海市",
+            "name_abbr": "北海"
+        },
+        {
+            "sheng": "45",
+            "shi": "6",
+            "sheng4": "4506",
+            "name": "防城港市",
+            "name_abbr": "防城港"
+        },
+        {
+            "sheng": "45",
+            "shi": "7",
+            "sheng4": "4507",
+            "name": "钦州市",
+            "name_abbr": "钦州"
+        },
+        {
+            "sheng": "45",
+            "shi": "8",
+            "sheng4": "4508",
+            "name": "贵港市",
+            "name_abbr": "贵港"
+        },
+        {
+            "sheng": "45",
+            "shi": "9",
+            "sheng4": "4509",
+            "name": "玉林市",
+            "name_abbr": "玉林"
+        },
+        {
+            "sheng": "45",
+            "shi": "10",
+            "sheng4": "4510",
+            "name": "百色市",
+            "name_abbr": "百色"
+        },
+        {
+            "sheng": "45",
+            "shi": "11",
+            "sheng4": "4511",
+            "name": "贺州市",
+            "name_abbr": "贺州"
+        },
+        {
+            "sheng": "45",
+            "shi": "12",
+            "sheng4": "4512",
+            "name": "河池市",
+            "name_abbr": "河池"
+        },
+        {
+            "sheng": "45",
+            "shi": "13",
+            "sheng4": "4513",
+            "name": "来宾市",
+            "name_abbr": "来宾"
+        },
+        {
+            "sheng": "45",
+            "shi": "14",
+            "sheng4": "4514",
+            "name": "崇左市",
+            "name_abbr": "崇左"
+        },
+        {
+            "sheng": "46",
+            "shi": "1",
+            "sheng4": "4601",
+            "name": "海口市",
+            "name_abbr": "海口"
+        },
+        {
+            "sheng": "46",
+            "shi": "2",
+            "sheng4": "4602",
+            "name": "三亚市",
+            "name_abbr": "三亚"
+        },
+        {
+            "sheng": "46",
+            "shi": "3",
+            "sheng4": "4603",
+            "name": "三沙市",
+            "name_abbr": "三沙"
+        },
+        {
+            "sheng": "46",
+            "shi": "4",
+            "sheng4": "4604",
+            "name": "儋州市",
+            "name_abbr": "儋州"
+        },
+        {
+            "sheng": "46",
+            "shi": "4",
+            "sheng4": "4604",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "46",
+            "shi": "90",
+            "sheng4": "4690",
+            "name": "省直辖县级行政区划",
+            "name_abbr": "省直辖县级行政区"
+        },
+        {
+            "sheng": "50",
+            "shi": "1",
+            "sheng4": "5001",
+            "name": "市辖区",
+            "name_abbr": "市辖"
+        },
+        {
+            "sheng": "50",
+            "shi": "2",
+            "sheng4": "5002",
+            "name": "县",
+            "name_abbr": ""
+        },
+        {
+            "sheng": "51",
+            "shi": "1",
+            "sheng4": "5101",
+            "name": "成都市",
+            "name_abbr": "成都"
+        },
+        {
+            "sheng": "51",
+            "shi": "3",
+            "sheng4": "5103",
+            "name": "自贡市",
+            "name_abbr": "自贡"
+        },
+        {
+            "sheng": "51",
+            "shi": "4",
+            "sheng4": "5104",
+            "name": "攀枝花市",
+            "name_abbr": "攀枝花"
+        },
+        {
+            "sheng": "51",
+            "shi": "5",
+            "sheng4": "5105",
+            "name": "泸州市",
+            "name_abbr": "泸州"
+        },
+        {
+            "sheng": "51",
+            "shi": "6",
+            "sheng4": "5106",
+            "name": "德阳市",
+            "name_abbr": "德阳"
+        },
+        {
+            "sheng": "51",
+            "shi": "7",
+            "sheng4": "5107",
+            "name": "绵阳市",
+            "name_abbr": "绵阳"
+        },
+        {
+            "sheng": "51",
+            "shi": "8",
+            "sheng4": "5108",
+            "name": "广元市",
+            "name_abbr": "广元"
+        },
+        {
+            "sheng": "51",
+            "shi": "9",
+            "sheng4": "5109",
+            "name": "遂宁市",
+            "name_abbr": "遂宁"
+        },
+        {
+            "sheng": "51",
+            "shi": "10",
+            "sheng4": "5110",
+            "name": "内江市",
+            "name_abbr": "内江"
+        },
+        {
+            "sheng": "51",
+            "shi": "11",
+            "sheng4": "5111",
+            "name": "乐山市",
+            "name_abbr": "乐山"
+        },
+        {
+            "sheng": "51",
+            "shi": "13",
+            "sheng4": "5113",
+            "name": "南充市",
+            "name_abbr": "南充"
+        },
+        {
+            "sheng": "51",
+            "shi": "14",
+            "sheng4": "5114",
+            "name": "眉山市",
+            "name_abbr": "眉山"
+        },
+        {
+            "sheng": "51",
+            "shi": "15",
+            "sheng4": "5115",
+            "name": "宜宾市",
+            "name_abbr": "宜宾"
+        },
+        {
+            "sheng": "51",
+            "shi": "16",
+            "sheng4": "5116",
+            "name": "广安市",
+            "name_abbr": "广安"
+        },
+        {
+            "sheng": "51",
+            "shi": "17",
+            "sheng4": "5117",
+            "name": "达州市",
+            "name_abbr": "达州"
+        },
+        {
+            "sheng": "51",
+            "shi": "18",
+            "sheng4": "5118",
+            "name": "雅安市",
+            "name_abbr": "雅安"
+        },
+        {
+            "sheng": "51",
+            "shi": "19",
+            "sheng4": "5119",
+            "name": "巴中市",
+            "name_abbr": "巴中"
+        },
+        {
+            "sheng": "51",
+            "shi": "20",
+            "sheng4": "5120",
+            "name": "资阳市",
+            "name_abbr": "资阳"
+        },
+        {
+            "sheng": "51",
+            "shi": "32",
+            "sheng4": "5132",
+            "name": "阿坝藏族羌族自治州",
+            "name_abbr": "阿坝藏族羌族自治"
+        },
+        {
+            "sheng": "51",
+            "shi": "33",
+            "sheng4": "5133",
+            "name": "甘孜藏族自治州",
+            "name_abbr": "甘孜藏族自治"
+        },
+        {
+            "sheng": "51",
+            "shi": "34",
+            "sheng4": "5134",
+            "name": "凉山彝族自治州",
+            "name_abbr": "凉山彝族自治"
+        },
+        {
+            "sheng": "52",
+            "shi": "1",
+            "sheng4": "5201",
+            "name": "贵阳市",
+            "name_abbr": "贵阳"
+        },
+        {
+            "sheng": "52",
+            "shi": "2",
+            "sheng4": "5202",
+            "name": "六盘水市",
+            "name_abbr": "六盘水"
+        },
+        {
+            "sheng": "52",
+            "shi": "3",
+            "sheng4": "5203",
+            "name": "遵义市",
+            "name_abbr": "遵义"
+        },
+        {
+            "sheng": "52",
+            "shi": "4",
+            "sheng4": "5204",
+            "name": "安顺市",
+            "name_abbr": "安顺"
+        },
+        {
+            "sheng": "52",
+            "shi": "5",
+            "sheng4": "5205",
+            "name": "毕节市",
+            "name_abbr": "毕节"
+        },
+        {
+            "sheng": "52",
+            "shi": "6",
+            "sheng4": "5206",
+            "name": "铜仁市",
+            "name_abbr": "铜仁"
+        },
+        {
+            "sheng": "52",
+            "shi": "23",
+            "sheng4": "5223",
+            "name": "黔西南布依族苗族自治州",
+            "name_abbr": "黔西南布依族苗族自治"
+        },
+        {
+            "sheng": "52",
+            "shi": "26",
+            "sheng4": "5226",
+            "name": "黔东南苗族侗族自治州",
+            "name_abbr": "黔东南苗族侗族自治"
+        },
+        {
+            "sheng": "52",
+            "shi": "27",
+            "sheng4": "5227",
+            "name": "黔南布依族苗族自治州",
+            "name_abbr": "黔南布依族苗族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "1",
+            "sheng4": "5301",
+            "name": "昆明市",
+            "name_abbr": "昆明"
+        },
+        {
+            "sheng": "53",
+            "shi": "3",
+            "sheng4": "5303",
+            "name": "曲靖市",
+            "name_abbr": "曲靖"
+        },
+        {
+            "sheng": "53",
+            "shi": "4",
+            "sheng4": "5304",
+            "name": "玉溪市",
+            "name_abbr": "玉溪"
+        },
+        {
+            "sheng": "53",
+            "shi": "5",
+            "sheng4": "5305",
+            "name": "保山市",
+            "name_abbr": "保山"
+        },
+        {
+            "sheng": "53",
+            "shi": "6",
+            "sheng4": "5306",
+            "name": "昭通市",
+            "name_abbr": "昭通"
+        },
+        {
+            "sheng": "53",
+            "shi": "7",
+            "sheng4": "5307",
+            "name": "丽江市",
+            "name_abbr": "丽江"
+        },
+        {
+            "sheng": "53",
+            "shi": "8",
+            "sheng4": "5308",
+            "name": "普洱市",
+            "name_abbr": "普洱"
+        },
+        {
+            "sheng": "53",
+            "shi": "9",
+            "sheng4": "5309",
+            "name": "临沧市",
+            "name_abbr": "临沧"
+        },
+        {
+            "sheng": "53",
+            "shi": "23",
+            "sheng4": "5323",
+            "name": "楚雄彝族自治州",
+            "name_abbr": "楚雄彝族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "25",
+            "sheng4": "5325",
+            "name": "红河哈尼族彝族自治州",
+            "name_abbr": "红河哈尼族彝族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "26",
+            "sheng4": "5326",
+            "name": "文山壮族苗族自治州",
+            "name_abbr": "文山壮族苗族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "28",
+            "sheng4": "5328",
+            "name": "西双版纳傣族自治州",
+            "name_abbr": "西双版纳傣族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "29",
+            "sheng4": "5329",
+            "name": "大理白族自治州",
+            "name_abbr": "大理白族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "31",
+            "sheng4": "5331",
+            "name": "德宏傣族景颇族自治州",
+            "name_abbr": "德宏傣族景颇族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "33",
+            "sheng4": "5333",
+            "name": "怒江傈僳族自治州",
+            "name_abbr": "怒江傈僳族自治"
+        },
+        {
+            "sheng": "53",
+            "shi": "34",
+            "sheng4": "5334",
+            "name": "迪庆藏族自治州",
+            "name_abbr": "迪庆藏族自治"
+        },
+        {
+            "sheng": "54",
+            "shi": "1",
+            "sheng4": "5401",
+            "name": "拉萨市",
+            "name_abbr": "拉萨"
+        },
+        {
+            "sheng": "54",
+            "shi": "2",
+            "sheng4": "5402",
+            "name": "日喀则市",
+            "name_abbr": "日喀则"
+        },
+        {
+            "sheng": "54",
+            "shi": "3",
+            "sheng4": "5403",
+            "name": "昌都市",
+            "name_abbr": "昌都"
+        },
+        {
+            "sheng": "54",
+            "shi": "4",
+            "sheng4": "5404",
+            "name": "林芝市",
+            "name_abbr": "林芝"
+        },
+        {
+            "sheng": "54",
+            "shi": "5",
+            "sheng4": "5405",
+            "name": "山南市",
+            "name_abbr": "山南"
+        },
+        {
+            "sheng": "54",
+            "shi": "6",
+            "sheng4": "5406",
+            "name": "那曲市",
+            "name_abbr": "那曲"
+        },
+        {
+            "sheng": "54",
+            "shi": "25",
+            "sheng4": "5425",
+            "name": "阿里地区",
+            "name_abbr": "阿里地"
+        },
+        {
+            "sheng": "61",
+            "shi": "1",
+            "sheng4": "6101",
+            "name": "西安市",
+            "name_abbr": "西安"
+        },
+        {
+            "sheng": "61",
+            "shi": "2",
+            "sheng4": "6102",
+            "name": "铜川市",
+            "name_abbr": "铜川"
+        },
+        {
+            "sheng": "61",
+            "shi": "3",
+            "sheng4": "6103",
+            "name": "宝鸡市",
+            "name_abbr": "宝鸡"
+        },
+        {
+            "sheng": "61",
+            "shi": "4",
+            "sheng4": "6104",
+            "name": "咸阳市",
+            "name_abbr": "咸阳"
+        },
+        {
+            "sheng": "61",
+            "shi": "5",
+            "sheng4": "6105",
+            "name": "渭南市",
+            "name_abbr": "渭南"
+        },
+        {
+            "sheng": "61",
+            "shi": "6",
+            "sheng4": "6106",
+            "name": "延安市",
+            "name_abbr": "延安"
+        },
+        {
+            "sheng": "61",
+            "shi": "7",
+            "sheng4": "6107",
+            "name": "汉中市",
+            "name_abbr": "汉中"
+        },
+        {
+            "sheng": "61",
+            "shi": "8",
+            "sheng4": "6108",
+            "name": "榆林市",
+            "name_abbr": "榆林"
+        },
+        {
+            "sheng": "61",
+            "shi": "9",
+            "sheng4": "6109",
+            "name": "安康市",
+            "name_abbr": "安康"
+        },
+        {
+            "sheng": "61",
+            "shi": "10",
+            "sheng4": "6110",
+            "name": "商洛市",
+            "name_abbr": "商洛"
+        },
+        {
+            "sheng": "62",
+            "shi": "1",
+            "sheng4": "6201",
+            "name": "兰州市",
+            "name_abbr": "兰州"
+        },
+        {
+            "sheng": "62",
+            "shi": "2",
+            "sheng4": "6202",
+            "name": "嘉峪关市",
+            "name_abbr": "嘉峪关"
+        },
+        {
+            "sheng": "62",
+            "shi": "3",
+            "sheng4": "6203",
+            "name": "金昌市",
+            "name_abbr": "金昌"
+        },
+        {
+            "sheng": "62",
+            "shi": "4",
+            "sheng4": "6204",
+            "name": "白银市",
+            "name_abbr": "白银"
+        },
+        {
+            "sheng": "62",
+            "shi": "5",
+            "sheng4": "6205",
+            "name": "天水市",
+            "name_abbr": "天水"
+        },
+        {
+            "sheng": "62",
+            "shi": "6",
+            "sheng4": "6206",
+            "name": "武威市",
+            "name_abbr": "武威"
+        },
+        {
+            "sheng": "62",
+            "shi": "7",
+            "sheng4": "6207",
+            "name": "张掖市",
+            "name_abbr": "张掖"
+        },
+        {
+            "sheng": "62",
+            "shi": "8",
+            "sheng4": "6208",
+            "name": "平凉市",
+            "name_abbr": "平凉"
+        },
+        {
+            "sheng": "62",
+            "shi": "9",
+            "sheng4": "6209",
+            "name": "酒泉市",
+            "name_abbr": "酒泉"
+        },
+        {
+            "sheng": "62",
+            "shi": "10",
+            "sheng4": "6210",
+            "name": "庆阳市",
+            "name_abbr": "庆阳"
+        },
+        {
+            "sheng": "62",
+            "shi": "11",
+            "sheng4": "6211",
+            "name": "定西市",
+            "name_abbr": "定西"
+        },
+        {
+            "sheng": "62",
+            "shi": "12",
+            "sheng4": "6212",
+            "name": "陇南市",
+            "name_abbr": "陇南"
+        },
+        {
+            "sheng": "62",
+            "shi": "29",
+            "sheng4": "6229",
+            "name": "临夏回族自治州",
+            "name_abbr": "临夏回族自治"
+        },
+        {
+            "sheng": "62",
+            "shi": "30",
+            "sheng4": "6230",
+            "name": "甘南藏族自治州",
+            "name_abbr": "甘南藏族自治"
+        },
+        {
+            "sheng": "63",
+            "shi": "1",
+            "sheng4": "6301",
+            "name": "西宁市",
+            "name_abbr": "西宁"
+        },
+        {
+            "sheng": "63",
+            "shi": "2",
+            "sheng4": "6302",
+            "name": "海东市",
+            "name_abbr": "海东"
+        },
+        {
+            "sheng": "63",
+            "shi": "22",
+            "sheng4": "6322",
+            "name": "海北藏族自治州",
+            "name_abbr": "海北藏族自治"
+        },
+        {
+            "sheng": "63",
+            "shi": "23",
+            "sheng4": "6323",
+            "name": "黄南藏族自治州",
+            "name_abbr": "黄南藏族自治"
+        },
+        {
+            "sheng": "63",
+            "shi": "25",
+            "sheng4": "6325",
+            "name": "海南藏族自治州",
+            "name_abbr": "海南藏族自治"
+        },
+        {
+            "sheng": "63",
+            "shi": "26",
+            "sheng4": "6326",
+            "name": "果洛藏族自治州",
+            "name_abbr": "果洛藏族自治"
+        },
+        {
+            "sheng": "63",
+            "shi": "27",
+            "sheng4": "6327",
+            "name": "玉树藏族自治州",
+            "name_abbr": "玉树藏族自治"
+        },
+        {
+            "sheng": "63",
+            "shi": "28",
+            "sheng4": "6328",
+            "name": "海西蒙古族藏族自治州",
+            "name_abbr": "海西蒙古族藏族自治"
+        },
+        {
+            "sheng": "64",
+            "shi": "1",
+            "sheng4": "6401",
+            "name": "银川市",
+            "name_abbr": "银川"
+        },
+        {
+            "sheng": "64",
+            "shi": "2",
+            "sheng4": "6402",
+            "name": "石嘴山市",
+            "name_abbr": "石嘴山"
+        },
+        {
+            "sheng": "64",
+            "shi": "3",
+            "sheng4": "6403",
+            "name": "吴忠市",
+            "name_abbr": "吴忠"
+        },
+        {
+            "sheng": "64",
+            "shi": "4",
+            "sheng4": "6404",
+            "name": "固原市",
+            "name_abbr": "固原"
+        },
+        {
+            "sheng": "64",
+            "shi": "5",
+            "sheng4": "6405",
+            "name": "中卫市",
+            "name_abbr": "中卫"
+        },
+        {
+            "sheng": "65",
+            "shi": "1",
+            "sheng4": "6501",
+            "name": "乌鲁木齐市",
+            "name_abbr": "乌鲁木齐"
+        },
+        {
+            "sheng": "65",
+            "shi": "2",
+            "sheng4": "6502",
+            "name": "克拉玛依市",
+            "name_abbr": "克拉玛依"
+        },
+        {
+            "sheng": "65",
+            "shi": "4",
+            "sheng4": "6504",
+            "name": "吐鲁番市",
+            "name_abbr": "吐鲁番"
+        },
+        {
+            "sheng": "65",
+            "shi": "5",
+            "sheng4": "6505",
+            "name": "哈密市",
+            "name_abbr": "哈密"
+        },
+        {
+            "sheng": "65",
+            "shi": "23",
+            "sheng4": "6523",
+            "name": "昌吉回族自治州",
+            "name_abbr": "昌吉回族自治"
+        },
+        {
+            "sheng": "65",
+            "shi": "27",
+            "sheng4": "6527",
+            "name": "博尔塔拉蒙古自治州",
+            "name_abbr": "博尔塔拉蒙古自治"
+        },
+        {
+            "sheng": "65",
+            "shi": "28",
+            "sheng4": "6528",
+            "name": "巴音郭楞蒙古自治州",
+            "name_abbr": "巴音郭楞蒙古自治"
+        },
+        {
+            "sheng": "65",
+            "shi": "29",
+            "sheng4": "6529",
+            "name": "阿克苏地区",
+            "name_abbr": "阿克苏地"
+        },
+        {
+            "sheng": "65",
+            "shi": "30",
+            "sheng4": "6530",
+            "name": "克孜勒苏柯尔克孜自治州",
+            "name_abbr": "克孜勒苏柯尔克孜自治"
+        },
+        {
+            "sheng": "65",
+            "shi": "31",
+            "sheng4": "6531",
+            "name": "喀什地区",
+            "name_abbr": "喀什地"
+        },
+        {
+            "sheng": "65",
+            "shi": "32",
+            "sheng4": "6532",
+            "name": "和田地区",
+            "name_abbr": "和田地"
+        },
+        {
+            "sheng": "65",
+            "shi": "40",
+            "sheng4": "6540",
+            "name": "伊犁哈萨克自治州",
+            "name_abbr": "伊犁哈萨克自治"
+        },
+        {
+            "sheng": "65",
+            "shi": "42",
+            "sheng4": "6542",
+            "name": "塔城地区",
+            "name_abbr": "塔城地"
+        },
+        {
+            "sheng": "65",
+            "shi": "43",
+            "sheng4": "6543",
+            "name": "阿勒泰地区",
+            "name_abbr": "阿勒泰地"
+        },
+        {
+            "sheng": "65",
+            "shi": "90",
+            "sheng4": "6590",
+            "name": "自治区直辖县级行政区划",
+            "name_abbr": "自治区直辖县级行政区"
+        }
+    ]
+}
