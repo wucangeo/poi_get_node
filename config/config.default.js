@@ -20,7 +20,7 @@ module.exports = appInfo => {
 
   // add your user config here
   const userConfig = {
-    myAppName: "tycd_add_node",
+    myAppName: "poi_get_node",
     security: {
       domainWhiteList: ["http://localhost:7001"],
       csrf: {
@@ -36,7 +36,7 @@ module.exports = appInfo => {
       port: 5432,
       username: "postgres",
       password: "postgres",
-      database: "tycd_add",
+      database: "poi_get",
       benchmark: true,
       define: {
         freezeTableName: false,

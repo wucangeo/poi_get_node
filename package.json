@@ -1,5 +1,5 @@
 {
-  "name": "tycd_add_node",
+  "name": "poi_get_node",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -28,8 +28,8 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-tycd_add_node",
-    "stop": "egg-scripts stop --title=egg-server-tycd_add_node",
+    "start": "egg-scripts start --daemon --title=egg-server-poi_get_node",
+    "stop": "egg-scripts stop --title=egg-server-poi_get_node",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
