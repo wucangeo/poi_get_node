@@ -33,7 +33,7 @@ $ 浏览器打开 http://localhost:7001/
 $ #按地区抓取大众点评POI
 $ # @area_code：区域代码，必填，支持省编码2位，市编码4位，区县编码6位，可在数据库中查看
 $ # @categoryId：[大众点评抓取类型ID](https://github.com/wucangeo/poi_get_node/blob/master/app/utils/types.js)，选填。
-$ 浏览器打开 http://localhost:7001/dianping&area_code=11
+$ 浏览器打开 http://localhost:7001/dianping?area_code=11
 ```
 
 ### 部署
