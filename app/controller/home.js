@@ -134,6 +134,41 @@ class HomeController extends Controller {
       }
     };
   }
+  async baidu() {
+    const { ctx, service } = this;
+    let bounds = ctx.query.bounds,
+      query = ctx.query.query;
+    if (!bounds || !query) {
+      ctx.body = {
+        code: 500,
+        msg: "缺少必要参数"
+      };
+      return;
+    }
+    if (bounds.split(",").length != 4) {
+      ctx.body = {
+        code: 500,
+        msg: "参数错误"
+      };
+      return;
+    }
+    //开始获取数据
+    setTimeout(async function() {
+      let res_allPage = await service.baidu.getAllPage({
+        bounds,
+        query
+      });
+    }, 100);
+    ctx.body = {
+      code: 200,
+      msg: "执行成功！",
+      data: {
+        bounds,
+        page_num,
+        query
+      }
+    };
+  }
   async baiduByPage() {
     const { ctx, service } = this;
     let bounds = ctx.query.bounds,
@@ -158,7 +193,7 @@ class HomeController extends Controller {
     setTimeout(async function() {
       let res_allPage = await service.baidu.get1Page({
         bounds,
-        page_num,
+        page: page_num,
         query
       });
     }, 100);
