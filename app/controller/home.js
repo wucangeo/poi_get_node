@@ -1,15 +1,21 @@
 "use strict";
 const types = require("../utils/types");
+const bd_wds = require("../utils/baidu_querys")
 
 const Controller = require("egg").Controller;
 
 class HomeController extends Controller {
   async index() {
-    const { ctx } = this;
+    const {
+      ctx
+    } = this;
     ctx.body = "hi, egg";
   }
   async dianping() {
-    const { ctx, service } = this;
+    const {
+      ctx,
+      service
+    } = this;
     let area_code = ctx.query.area_code; //区划代码
     let categoryId = ctx.query.categoryId; //体育类型编号
     let cityList = await service.dianping.getCityListByAreaCode(area_code);
@@ -17,7 +23,7 @@ class HomeController extends Controller {
       ctx.body = cityList;
       return;
     }
-    setTimeout(async function() {
+    setTimeout(async function () {
       for (let city of cityList.data) {
         let cityEnName = city.city_en_name,
           cityId = city.city_id,
@@ -66,7 +72,10 @@ class HomeController extends Controller {
     };
   }
   async dianpingByPage() {
-    const { ctx, service } = this;
+    const {
+      ctx,
+      service
+    } = this;
     let cityEnName = ctx.query.cityEnName,
       cityId = ctx.query.cityId,
       categoryId = ctx.query.categoryId,
@@ -104,7 +113,7 @@ class HomeController extends Controller {
       return;
     }
     //开始获取数据
-    setTimeout(async function() {
+    setTimeout(async function () {
       let cityInfo = res_cityInfo.data;
       let sheng_code = cityInfo.sheng_code,
         shi_code = cityInfo.shi_code,
@@ -135,29 +144,28 @@ class HomeController extends Controller {
     };
   }
   async baidu() {
-    const { ctx, service } = this;
-    let bounds = ctx.query.bounds,
-      query = ctx.query.query;
-    if (!bounds || !query) {
-      ctx.body = {
-        code: 500,
-        msg: "缺少必要参数"
-      };
+    const {
+      ctx,
+      service
+    } = this;
+    let query = ctx.query.query;
+    //获取边框
+    let bounds_All = await service.baidu.getAllBounds();
+    if (bounds_All.length === 0) {
+      console.log("获取bounds_All失败!")
+      ctx.body = "请求失败！"
       return;
     }
-    if (bounds.split(",").length != 4) {
-      ctx.body = {
-        code: 500,
-        msg: "参数错误"
-      };
-      return;
-    }
-    //开始获取数据
-    setTimeout(async function() {
-      let res_allPage = await service.baidu.getAllPage({
-        bounds,
-        query
-      });
+    setTimeout(async function () {
+      for (let wd of bd_wds) {
+        for (let bounds of bounds_All) {
+          //开始获取数据
+          let res_allPage = await service.baidu.getAllPage({
+            bounds,
+            query: wd
+          });
+        }
+      }
     }, 100);
     ctx.body = {
       code: 200,
@@ -170,7 +178,10 @@ class HomeController extends Controller {
     };
   }
   async baiduByPage() {
-    const { ctx, service } = this;
+    const {
+      ctx,
+      service
+    } = this;
     let bounds = ctx.query.bounds,
       page_num = ctx.query.page_num,
       query = ctx.query.query;
@@ -190,7 +201,7 @@ class HomeController extends Controller {
     }
     page_num = parseInt(page_num);
     //开始获取数据
-    setTimeout(async function() {
+    setTimeout(async function () {
       let res_allPage = await service.baidu.get1Page({
         bounds,
         page: page_num,

@@ -4,88 +4,27 @@ const ping = require("ping");
 const Service = require("egg").Service;
 
 class BaiduService extends Service {
-  //根据areacode获取其下areacodes及拼音名称
-  async getCityListByAreaCode(area_code = "") {
-    const { ctx, app } = this;
-    let result = {
-      code: 500,
-      msg: "请求错误",
-      data: null
-    };
-    if (!area_code) {
-      result.msg = "area_code为空";
-      return result;
-    }
-    if (!parseInt(area_code)) {
-      result.msg = "area_code参数有误！";
-      return result;
-    }
-    let sql = "";
-    if (area_code.length === 2) {
-      sql = `SELECT city_id,city_en_name,sheng_code,shi_code,xian_code,"regionId"  FROM dianping_city_list WHERE sheng_code = '${area_code}' ORDER BY shi_code,city_id,"regionId";`;
-    } else if (area_code.length === 4) {
-      sql = `SELECT city_id,city_en_name,sheng_code,shi_code,xian_code,"regionId"  FROM dianping_city_list WHERE shi_code = '${area_code}' ORDER BY shi_code,city_id,"regionId";`;
-    } else if (area_code.length === 6) {
-      sql = `SELECT city_id,city_en_name,sheng_code,shi_code,xian_code,"regionId"  FROM dianping_city_list WHERE xian_code = '${area_code}' ORDER BY shi_code,city_id,"regionId";`;
-    } else {
-      result.msg = "area_code参数有误";
-      return result;
-    }
-    let queryData = await app.model.query(sql).catch(err => {
-      result.code = 0;
-      result.msg = "数据库查询错误。";
-      result.data = err;
-    });
-    if (!queryData) {
-      return result;
-    }
 
-    result.data = queryData[0];
-    result.code = 200;
-    result.msg = "查询成果！";
-    return result;
-  }
-  async getCityInfoByCityId(city_id) {
-    const { ctx, app } = this;
-    let result = {
-      code: 500,
-      msg: "请求错误",
-      data: null
-    };
-    if (!city_id) {
-      result.msg = "area_code为空";
-      return result;
-    }
-    if (!parseInt(city_id)) {
-      result.msg = "area_code参数有误！";
-      return result;
-    }
-    let sql = `SELECT city_id,city_en_name,sheng_code,shi_code,xian_code,"regionId" FROM dianping_city_list WHERE city_id = '${city_id}';`;
-    let queryData = await app.model.query(sql).catch(err => {
-      result.code = 0;
-      result.msg = "数据库查询错误。";
-      result.data = err;
-    });
-    if (!queryData || !queryData[0] || queryData[0][0].length === 0) {
-      return result;
-    }
-
-    result.data = queryData[0][0];
-    result.code = 200;
-    result.msg = "查询成果！";
-    return result;
-  }
   async sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  async getAllPage({ query, bounds, page = 0 }) {
-    const { ctx } = this;
+  async getAllPage({
+    query,
+    bounds,
+    page = 0
+  }) {
+    const {
+      ctx
+    } = this;
     console.log(
       "开始新类目抓取--------------------------------：",
       query,
       bounds
     );
-    let current = { page: 0, pageMax: -1 };
+    let current = {
+      page: 0,
+      pageMax: -1
+    };
     let prePage = page;
 
     let result = {
@@ -102,7 +41,7 @@ class BaiduService extends Service {
         .then(async res => {
           if (res.alive) {
             pingAlive = true;
-            await this.sleep(1000);
+            // await this.sleep(1000);
           } else {
             pingAlive = false;
           }
@@ -186,8 +125,15 @@ class BaiduService extends Service {
     return result;
   }
   //请求并获取web网站的内容
-  async get1Page({ bounds, page, query }) {
-    const { ctx, logger } = this;
+  async get1Page({
+    bounds,
+    page,
+    query
+  }) {
+    const {
+      ctx,
+      logger
+    } = this;
     let ak = AKS.get1AK();
     page = parseInt(page);
 
@@ -245,15 +191,58 @@ class BaiduService extends Service {
       });
     if (pageData.length > 0) {
       for (let item of pageData) {
+        if (!item.location.lat || !item.location.lng) {
+          continue;
+        }
         item["lat"] = item.location.lat;
         item["lng"] = item.location.lng;
         item["query"] = query;
         item["page"] = result.page;
         item["page_count"] = result.pageMax;
+        await ctx.model.Baidu.create(item).then(res => {
+          console.log("成功插入一批数据!");
+        }).catch(err => {
+          console.log("插入失败!")
+        });
       }
-      await ctx.model.Baidu.bulkCreate(pageData).then(res => {
-        console.log("成功插入一批数据!");
-      });
+    }
+    return result;
+  }
+  //根据areacode获取其下areacodes及拼音名称
+  async getAllBounds(type = 25) {
+    const {
+      ctx,
+      app
+    } = this;
+    let result = [];
+    let sql = `select st_asgeojson(geom) as geojson from "w25" ORDER BY gid`;
+    if (type === 5) {
+      sql = `select st_asgeojson(geom) as geojson from "w5" ORDER BY gid`;
+    }
+    let queryData = await app.model.query(sql).catch(err => {
+      console.log("数据库查询错误。");
+    });
+    if (!queryData) {
+      return result;
+    }
+    let datas = queryData[0];
+    let coordObj = null;
+    for (let item of datas) {
+      coordObj = JSON.parse(item.geojson);
+      let lower = coordObj.coordinates[0][3],
+        upper = coordObj.coordinates[0][1];
+      let boundsArr11 = [lower[1], lower[0], lower[1] + 0.5, lower[0] + 0.5];
+      let boundsArr12 = [lower[1], lower[0] + 0.5, lower[1] + 0.5, lower[0] + 1];
+      let boundsArr13 = [lower[1], lower[0] + 1, lower[1] + 0.5, upper[0]];
+      let boundsArr21 = [lower[1] + 0.5, lower[0], upper[1], lower[0] + 0.5];
+      let boundsArr22 = [lower[1] + 0.5, lower[0] + 0.5, upper[1], lower[0] + 1];
+      let boundsArr23 = [lower[1] + 0.5, lower[0] + 1, upper[1], upper[0]];
+      result.push(boundsArr11.join(","));
+      result.push(boundsArr12.join(","));
+      result.push(boundsArr13.join(","));
+      result.push(boundsArr21.join(","));
+      result.push(boundsArr22.join(","));
+      result.push(boundsArr23.join(","));
     }
     return result;
   }
