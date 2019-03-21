@@ -158,13 +158,14 @@ class HomeController extends Controller {
     }
     setTimeout(async function () {
       for (let wd of bd_wds) {
-        for (let bounds of bounds_All) {
+        bounds_All.forEach((bounds, index) => {
+          console.log("开始bounds:", index, bounds);
           //开始获取数据
           let res_allPage = await service.baidu.getAllPage({
             bounds,
             query: wd
           });
-        }
+        })
       }
     }, 100);
     ctx.body = {
